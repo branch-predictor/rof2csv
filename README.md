@@ -23,10 +23,14 @@ Time;Ch1 V; Ch1 A;Ch2 V; Ch2 A;Ch3 V; Ch3 A;
   rof2csv [-fds|-fdc] [-overwrite] infile [outfile]
 
   -fdd        use colon (dot) as float separator
+  
   -fdc        use comma as float separator
               NOTE: defaults to whatever system locale uses
+              
   -overwrite  force overwriting destination file.
+  
   infile      source ROF file
+  
   outfile     destination CSV file, defaults to imfile but with ".csv" extension.
 
 # Building
